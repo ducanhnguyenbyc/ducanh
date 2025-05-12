@@ -1,0 +1,713 @@
+[
+    {
+        "question": "Sải cánh của B-1B Lancer là bao nhiêu?",
+        "answers": [
+            {"text": "41.8 m", "correct": true},
+            {"text": "35 m", "correct": false},
+            {"text": "50 m", "correct": false},
+            {"text": "40 m", "correct": false}
+        ]
+    },
+    {
+        "question": "B-1B Lancer thuộc loại máy bay nào?",
+        "answers": [
+            {"text": "Máy bay tiêm kích", "correct": false},
+            {"text": "Máy bay ném bom chiến lược", "correct": true},
+            {"text": "Máy bay vận tải", "correct": false},
+            {"text": "Máy bay trinh sát", "correct": false}
+        ]
+    },
+    {
+        "question": "Vận tốc tối đa của B-1B Lancer là bao nhiêu?",
+        "answers": [
+            {"text": "~1.000 km/h", "correct": false},
+            {"text": "~1.335 km/h", "correct": true},
+            {"text": "~2.000 km/h", "correct": false},
+            {"text": "~1200 km/h", "correct": false}
+        ]
+    },
+    {
+        "question": "Trần bay của B-1B Lancer là bao nhiêu?",
+        "answers": [
+            {"text": "~10.000 m", "correct": false},
+            {"text": "~15.000 m", "correct": false},
+            {"text": "~18.000 m", "correct": true},
+            {"text": "~17000 m", "correct": false}
+        ]
+    },
+    {
+        "question": "B-2A Spirit có khả năng tàng hình không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Có thể", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "Sải cánh của B-2A Spirit là bao nhiêu?",
+        "answers": [
+            {"text": "40 m", "correct": false},
+            {"text": "52.4 m", "correct": true},
+            {"text": "60 m", "correct": false},
+            {"text": "55 m", "correct": false}
+        ]
+    },
+    {
+        "question": "B-2A Spirit thuộc loại máy bay nào?",
+        "answers": [
+            {"text": "Máy bay tiêm kích", "correct": false},
+            {"text": "Máy bay ném bom tàng hình", "correct": true},
+            {"text": "Máy bay vận tải", "correct": false},
+            {"text": "Máy bay trinh sát", "correct": false}
+        ]
+    },
+    {
+        "question": "Vận tốc tối đa của B-2A Spirit là bao nhiêu?",
+        "answers": [
+            {"text": "~800 km/h", "correct": false},
+            {"text": "~1.010 km/h", "correct": true},
+            {"text": "~1.500 km/h", "correct": false},
+            {"text": "~1200 km/h", "correct": false}
+        ]
+    },
+    {
+        "question": "Thời gian hoạt động của B-2A Spirit là bao lâu (có tiếp nhiên liệu)?",
+        "answers": [
+            {"text": "~24 giờ", "correct": false},
+            {"text": "~30 giờ", "correct": false},
+            {"text": "~44 giờ", "correct": true},
+            {"text": "~40 giờ", "correct": false}
+        ]
+    },
+    {
+        "question": "B-2 Spirit có bao nhiêu động cơ?",
+        "answers": [
+            {"text": "2", "correct": false},
+            {"text": "4", "correct": true},
+            {"text": "6", "correct": false},
+            {"text": "8", "correct": false}
+        ]
+    },
+    {
+        "question": "B-52 Stratofortress có biệt danh nào?",
+        "answers": [
+            {"text": "Pháo đài bay", "correct": true},
+            {"text": "Chim ưng đêm", "correct": false},
+            {"text": "Bóng ma", "correct": false},
+            {"text": "Sấm sét", "correct": false}
+        ]
+    },
+    {
+        "question": "B-52 có khả năng mang vũ khí hạt nhân không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Có thể", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "Tuổi thọ dự kiến của B-52 là đến năm nào?",
+        "answers": [
+            {"text": "2040", "correct": false},
+            {"text": "2050", "correct": true},
+            {"text": "2060", "correct": false},
+            {"text": "2055", "correct": false}
+        ]
+    },
+    {
+        "question": "B-1 Lancer có bao nhiêu chỗ ngồi?",
+        "answers": [
+            {"text": "2", "correct": false},
+            {"text": "4", "correct": true},
+            {"text": "3", "correct": false},
+            {"text": "5", "correct": false}
+        ]
+    },
+    {
+        "question": "B-2 Spirit có hình dạng như thế nào?",
+        "answers": [
+            {"text": "Tam giác", "correct": true},
+            {"text": "Vuông", "correct": false},
+            {"text": "Tròn", "correct": false},
+            {"text": "Chữ nhật", "correct": false}
+        ]
+    },
+    {
+        "question": "B-52 có bao nhiêu động cơ?",
+        "answers": [
+            {"text": "4", "correct": false},
+            {"text": "6", "correct": false},
+            {"text": "8", "correct": true},
+            {"text": "10", "correct": false}
+        ]
+    },
+    {
+        "question": "B-2 Spirit có khả năng tàng hình trước loại sóng radar nào?",
+        "answers": [
+            {"text": "Sóng âm", "correct": false},
+            {"text": "Sóng điện từ", "correct": true},
+            {"text": "Sóng nước", "correct": false},
+            {"text": "Sóng cơ", "correct": false}
+        ]
+    },
+    {
+        "question": "B-1B Lancer có khả năng bay ở tốc độ siêu âm không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ cận âm", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "B-2 Spirit có cần tiếp nhiên liệu trên không không?",
+        "answers": [
+            {"text": "Có", "correct": false},
+            {"text": "Không", "correct": true},
+            {"text": "Tùy thuộc nhiệm vụ", "correct": false},
+            {"text": "Chỉ khi bay xa", "correct": false}
+        ]
+    },
+    {
+        "question": "B-52 có khả năng mang những loại bom nào?",
+        "answers": [
+            {"text": "Bom thông thường", "correct": false},
+            {"text": "Bom hạt nhân", "correct": false},
+            {"text": "Tên lửa hành trình", "correct": false},
+            {"text": "Tất cả các loại trên", "correct": true}
+        ]
+    },
+    {
+        "question": "B-1 Lancer được trang bị hệ thống radar nào?",
+        "answers": [
+            {"text": "APG-66", "correct": false},
+            {"text": "APQ-164", "correct": true},
+            {"text": "AN/APY-3", "correct": false},
+            {"text": "AN/APG-77", "correct": false}
+        ]
+    },
+    {
+        "question": "B-2 Spirit được chế tạo bởi công ty nào?",
+        "answers": [
+            {"text": "Boeing", "correct": false},
+            {"text": "Lockheed Martin", "correct": false},
+            {"text": "Northrop Grumman", "correct": true},
+            {"text": "Airbus", "correct": false}
+        ]
+    },
+    {
+        "question": "B-52 có bao nhiêu thành viên phi hành đoàn?",
+        "answers": [
+            {"text": "2", "correct": false},
+            {"text": "4", "correct": false},
+            {"text": "5", "correct": true},
+            {"text": "6", "correct": false}
+        ]
+    },
+    {
+        "question": "B-1B Lancer có khả năng thay đổi hình dạng cánh không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ khi hạ cánh", "correct": false},
+            {"text": "Chỉ khi bay nhanh", "correct": false}
+        ]
+    },
+    {
+        "question": "B-2 Spirit có hệ thống phòng thủ nào?",
+        "answers": [
+            {"text": "Pháo", "correct": false},
+            {"text": "Tên lửa", "correct": false},
+            {"text": "Hệ thống gây nhiễu điện tử", "correct": true},
+            {"text": "Không có", "correct": false}
+        ]
+    },
+    {
+        "question": "F-15 Eagle là loại máy bay gì?",
+        "answers": [
+            {"text": "Máy bay ném bom", "correct": false},
+            {"text": "Máy bay tiêm kích", "correct": true},
+            {"text": "Máy bay vận tải", "correct": false},
+            {"text": "Máy bay trinh sát", "correct": false}
+        ]
+    },
+    {
+        "question": "F-15 Eagle có tốc độ tối đa là bao nhiêu?",
+        "answers": [
+            {"text": "~2.000 km/h", "correct": false},
+            {"text": "~2.500 km/h", "correct": false},
+            {"text": "~3.000 km/h", "correct": true},
+            {"text": "~3500 km/h", "correct": false}
+        ]
+    },
+    {
+        "question": "F-16 Fighting Falcon là loại máy bay gì?",
+        "answers": [
+            {"text": "Máy bay ném bom", "correct": false},
+            {"text": "Máy bay tiêm kích đa nhiệm", "correct": true},
+            {"text": "Máy bay vận tải", "correct": false},
+            {"text": "Máy bay trinh sát", "correct": false}
+        ]
+    },
+    {
+        "question": "F-16 Fighting Falcon có phải là máy bay một động cơ không?",
+        "answers": [
+            {"text": "Đúng", "correct": true},
+            {"text": "Sai", "correct": false},
+            {"text": "Không rõ", "correct": false},
+            {"text": "Có thể", "correct": false}
+        ]
+    },
+    {
+        "question": "F/A-18E/F Super Hornet có khả năng hoạt động trên tàu sân bay không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ có một số phiên bản", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "F-22 Raptor thuộc thế hệ máy bay nào?",
+        "answers": [
+            {"text": "Thế hệ 4", "correct": false},
+            {"text": "Thế hệ 5", "correct": true},
+            {"text": "Thế hệ 6", "correct": false},
+            {"text": "Thế hệ 3", "correct": false}
+        ]
+    },
+    {
+        "question": "F-35 Lightning II có bao nhiêu phiên bản chính?",
+        "answers": [
+            {"text": "1", "correct": false},
+            {"text": "2", "correct": false},
+            {"text": "3", "correct": true},
+            {"text": "4", "correct": false}
+        ]
+    },
+    {
+        "question": "F-35 Lightning II có khả năng tàng hình không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Tàng hình kém", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "F-14 Tomcat có kiểu cánh nào?",
+        "answers": [
+            {"text": "Cánh cố định", "correct": false},
+            {"text": "Cánh cụp xòe", "correct": true},
+            {"text": "Cánh quay", "correct": false},
+            {"text": "Cánh tam giác", "correct": false}
+        ]
+    },
+    {
+        "question": "F-14 Tomcat được trang bị radar nào?",
+        "answers": [
+            {"text": "AN/APG-66", "correct": false},
+            {"text": "AN/APG-9", "correct": true},
+            {"text": "AN/APG-77", "correct": false},
+            {"text": "AN/APY-3", "correct": false}
+        ]
+    },
+    {
+        "question": "F-4 Phantom II có bao nhiêu chỗ ngồi?",
+        "answers": [
+            {"text": "1", "correct": false},
+            {"text": "2", "correct": true},
+            {"text": "3", "correct": false},
+            {"text": "4", "correct": false}
+        ]
+    },
+    {
+        "question": "F-4 Phantom II có biệt danh nào?",
+        "answers": [
+            {"text": "Spook", "correct": true},
+            {"text": "Eagle", "correct": false},
+            {"text": "Viper", "correct": false},
+            {"text": "Tomcat", "correct": false}
+        ]
+    },
+    {
+        "question": "F-15 Eagle có khả năng mang bao nhiêu tên lửa không đối không?",
+        "answers": [
+            {"text": "4", "correct": false},
+            {"text": "6", "correct": false},
+            {"text": "8", "correct": true},
+            {"text": "10", "correct": false}
+        ]
+    },
+    {
+        "question": "F-16 Fighting Falcon có hệ thống điều khiển bay nào?",
+        "answers": [
+            {"text": "Cơ học", "correct": false},
+            {"text": "Điện tử (Fly-by-wire)", "correct": true},
+            {"text": "Thủy lực", "correct": false},
+            {"text": "Kết hợp", "correct": false}
+        ]
+    },
+    {
+        "question": "F/A-18E/F Super Hornet có bao nhiêu chỗ ngồi?",
+        "answers": [
+            {"text": "1 (ở phiên bản E) hoặc 2 (ở phiên bản F)", "correct": true},
+            {"text": "2", "correct": false},
+            {"text": "1", "correct": false},
+            {"text": "4", "correct": false}
+        ]
+    },
+    {
+        "question": "F-22 Raptor có khả năng tàng hình trước loại radar nào?",
+        "answers": [
+            {"text": "Radar bước sóng dài", "correct": false},
+            {"text": "Radar bước sóng ngắn", "correct": true},
+            {"text": "Cả hai", "correct": false},
+            {"text": "Không tàng hình", "correct": false}
+        ]
+    },
+    {
+        "question": "F-35 Lightning II có mấy phiên bản?",
+        "answers": [
+            {"text": "2", "correct": false},
+            {"text": "3", "correct": true},
+            {"text": "4", "correct": false},
+            {"text": "5", "correct": false}
+        ]
+    },
+    {
+        "question": "F-14 Tomcat có khả năng đánh chặn ở tầm xa không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ tầm gần", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "F-4 Phantom II có khả năng mang nhiều loại vũ khí không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ vũ khí không đối không", "correct": false},
+            {"text": "Chỉ vũ khí đối đất", "correct": false}
+        ]
+    },
+    {
+        "question": "F-15 Eagle có khả năng bay ở tốc độ siêu âm không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ khi không mang vũ khí", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "F-16 Fighting Falcon có khả năng tấn công mục tiêu trên không và trên mặt đất không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ trên không", "correct": false},
+            {"text": "Chỉ trên mặt đất", "correct": false}
+        ]
+    },
+    {
+        "question": "F/A-18E/F Super Hornet có khả năng tiếp nhiên liệu trên không không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ một số phiên bản", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "F-22 Raptor có khả năng siêu hành trình (supercruise) không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ trong thời gian ngắn", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "F-35 Lightning II có khả năng chia sẻ dữ liệu chiến trường không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ với một số loại máy bay", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "F-14 Tomcat có hệ thống nào để theo dõi nhiều mục tiêu?",
+        "answers": [
+            {"text": "AWG-9", "correct": true},
+            {"text": "APG-66", "correct": false},
+            {"text": "APG-77", "correct": false},
+            {"text": "APY-3", "correct": false}
+        ]
+    },
+    {
+        "question": "P-8A Poseidon thuộc loại máy bay nào?",
+        "answers": [
+            {"text": "Máy bay ném bom", "correct": false},
+            {"text": "Máy bay tuần tra hàng hải", "correct": true},
+            {"text": "Máy bay vận tải", "correct": false},
+            {"text": "Máy bay tiêm kích", "correct": false}
+        ]
+    },
+    {
+        "question": "P-8A Poseidon có khả năng chống ngầm không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ có một số phiên bản", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "RC-135 Rivet Joint là loại máy bay gì?",
+        "answers": [
+            {"text": "Máy bay ném bom", "correct": false},
+            {"text": "Máy bay trinh sát điện tử", "correct": true},
+            {"text": "Máy bay vận tải", "correct": false},
+            {"text": "Máy bay tiêm kích", "correct": false}
+        ]
+    },
+    {
+        "question": "RC-135 Rivet Joint thu thập thông tin tình báo như thế nào?",
+        "answers": [
+            {"text": "Chụp ảnh", "correct": false},
+            {"text": "Nghe lén tín hiệu điện tử", "correct": true},
+            {"text": "Phân tích mẫu không khí", "correct": false},
+            {"text": "Sử dụng radar", "correct": false}
+        ]
+    },
+    {
+        "question": "MQ-9 Reaper là loại máy bay gì?",
+        "answers": [
+            {"text": "Máy bay tiêm kích", "correct": false},
+            {"text": "UAV tấn công/trinh sát", "correct": true},
+            {"text": "Máy bay vận tải", "correct": false},
+            {"text": "Máy bay ném bom", "correct": false}
+        ]
+    },
+    {
+        "question": "MQ-9 Reaper có người lái hay không người lái?",
+        "answers": [
+            {"text": "Có người lái", "correct": false},
+            {"text": "Không người lái", "correct": true},
+            {"text": "Có thể có hoặc không", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "MQ-4C Triton được sử dụng để làm gì?",
+        "answers": [
+            {"text": "Tấn công mặt đất", "correct": false},
+            {"text": "Tuần tra hàng hải", "correct": true},
+            {"text": "Trinh sát điện tử", "correct": false},
+            {"text": "Đổ bộ", "correct": false}
+        ]
+    },
+    {
+        "question": "MQ-4C Triton có thời gian hoạt động tối đa là bao lâu?",
+        "answers": [
+            {"text": "~10 giờ", "correct": false},
+            {"text": "~20 giờ", "correct": false},
+            {"text": "~30 giờ", "correct": true},
+            {"text": "~40 giờ", "correct": false}
+        ]
+    },
+    {
+        "question": "E-3 Sentry có chức năng chính là gì?",
+        "answers": [
+            {"text": "Cảnh báo sớm (AEW&C)", "correct": true},
+            {"text": "Tấn công mặt đất", "correct": false},
+            {"text": "Trinh sát", "correct": false},
+            {"text": "Chống ngầm", "correct": false}
+        ]
+    },
+    {
+        "question": "E-3 Sentry có radar tầm xa không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ có một số phiên bản", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "U-2 Dragon Lady có khả năng bay ở độ cao lớn không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ trong thời gian ngắn", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "U-2 Dragon Lady được sử dụng để làm gì?",
+        "answers": [
+            {"text": "Ném bom", "correct": false},
+            {"text": "Trinh sát chiến lược", "correct": true},
+            {"text": "Tấn công mặt đất", "correct": false},
+            {"text": "Đánh chặn", "correct": false}
+        ]
+    },
+    {
+        "question": "RQ-4 Global Hawk là loại máy bay gì?",
+        "answers": [
+            {"text": "Máy bay tiêm kích", "correct": false},
+            {"text": "UAV trinh sát", "correct": true},
+            {"text": "Máy bay vận tải", "correct": false},
+            {"text": "Máy bay ném bom", "correct": false}
+        ]
+    },
+    {
+        "question": "RQ-4 Global Hawk có người lái hay không người lái?",
+        "answers": [
+            {"text": "Có người lái", "correct": false},
+            {"text": "Không người lái", "correct": true},
+            {"text": "Có thể có hoặc không", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "P-3 Orion có khả năng mang vũ khí chống ngầm không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ có một số phiên bản", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "P-3 Orion có bao nhiêu động cơ?",
+        "answers": [
+            {"text": "2", "correct": false},
+            {"text": "4", "correct": true},
+            {"text": "6", "correct": false},
+            {"text": "8", "correct": false}
+        ]
+    },
+    {
+        "question": "E-8C Joint STARS có khả năng theo dõi mục tiêu di động trên mặt đất không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ theo dõi mục tiêu cố định", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "E-8C Joint STARS cung cấp thông tin gì cho các đơn vị chỉ huy?",
+        "answers": [
+            {"text": "Thông tin thời tiết", "correct": false},
+            {"text": "Vị trí và di chuyển của lực lượng đối phương", "correct": true},
+            {"text": "Bản đồ địa hình", "correct": false},
+            {"text": "Thông tin liên lạc của đối phương", "correct": false}
+        ]
+    },
+    {
+        "question": "RC-135 COBRA BALL có nhiệm vụ gì?",
+        "answers": [
+            {"text": "Trinh sát thời tiết", "correct": false},
+            {"text": "Thu thập thông tin tình báo tên lửa", "correct": true},
+            {"text": "Trinh sát điện tử", "correct": false},
+            {"text": "Chống ngầm", "correct": false}
+        ]
+    },
+    {
+        "question": "RC-135 COBRA BALL được trang bị những cảm biến nào?",
+        "answers": [
+            {"text": "Radar", "correct": false},
+            {"text": "Sonar", "correct": false},
+            {"text": "Quang học và hồng ngoại", "correct": true},
+            {"text": "Cảm biến hóa học", "correct": false}
+        ]
+    },
+    {
+        "question": "P-8A Poseidon được phát triển dựa trên loại máy bay dân dụng nào?",
+        "answers": [
+            {"text": "Boeing 737", "correct": true},
+            {"text": "Boeing 747", "correct": false},
+            {"text": "Airbus A320", "correct": false},
+            {"text": "Airbus A380", "correct": false}
+        ]
+    },
+    {
+        "question": "P-8A Poseidon có khả năng mang theo ngư lôi không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ mang để huấn luyện", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "RC-135 Rivet Joint có khả năng phân tích những loại tín hiệu điện tử nào?",
+        "answers": [
+            {"text": "Tín hiệu radar", "correct": false},
+            {"text": "Tín hiệu liên lạc", "correct": false},
+            {"text": "Tín hiệu điều khiển", "correct": false},
+            {"text": "Tất cả các đáp án trên", "correct": true}
+        ]
+    },
+    {
+        "question": "MQ-9 Reaper có khả năng mang theo những loại vũ khí nào?",
+        "answers": [
+            {"text": "Bom", "correct": false},
+            {"text": "Tên lửa", "correct": true},
+            {"text": "Pháo", "correct": false},
+            {"text": "Tất cả các đáp án trên", "correct": false}
+        ]
+    },
+    {
+        "question": "MQ-4C Triton có khả năng hoạt động ở độ cao lớn không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ trong thời gian ngắn", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "C-130 Hercules là loại máy bay gì?",
+        "answers": [
+            {"text": "Máy bay ném bom", "correct": false},
+            {"text": "Máy bay vận tải", "correct": true},
+            {"text": "Máy bay tiêm kích", "correct": false},
+            {"text": "Máy bay trinh sát", "correct": false}
+        ]
+    },
+    {
+        "question": "C-130 Hercules có khả năng cất cánh và hạ cánh trên đường băng ngắn không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ có một số phiên bản", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    },
+    {
+        "question": "C-17 Globemaster III được sử dụng để làm gì?",
+        "answers": [
+            {"text": "Ném bom", "correct": false},
+            {"text": "Vận tải chiến lược", "correct": true},
+            {"text": "Tiêm kích", "correct": false},
+            {"text": "Trinh sát", "correct": false}
+        ]
+    },
+    {
+        "question": "C-17 Globemaster III có khả năng mang theo xe tăng không?",
+        "answers": [
+            {"text": "Có", "correct": true},
+            {"text": "Không", "correct": false},
+            {"text": "Chỉ có một số phiên bản", "correct": false},
+            {"text": "Không rõ", "correct": false}
+        ]
+    }
+]

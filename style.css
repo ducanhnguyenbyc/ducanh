@@ -1,0 +1,429 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Font hiện đại hơn */
+  background: linear-gradient(135deg, #667eea, #764ba2); /* Màu gradient khác */
+  margin: 0;
+  min-height: 100vh; /* Đảm bảo body chiếm đủ chiều cao */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Căn giữa nội dung theo chiều dọc */
+  padding: 20px; /* Thêm padding cho body */
+  box-sizing: border-box; /* Tính padding vào kích thước */
+}
+
+.login-container,
+.quiz-container {
+  background: white;
+  padding: 30px 40px; /* Tăng padding ngang */
+  border-radius: 12px; /* Bo góc nhiều hơn */
+  width: 100%; /* Chiếm toàn bộ chiều rộng trên màn hình nhỏ */
+  max-width: 700px; /* Tăng max-width */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.04); /* Box shadow đẹp hơn */
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.login-container {
+    max-width: 450px; /* Giới hạn chiều rộng form login */
+}
+
+.login-container h2,
+.quiz-header h2 {
+  text-align: center;
+  margin-top: 0; /* Bỏ margin top mặc định */
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 14px 16px; /* Tăng padding input */
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border-radius: 8px; /* Bo góc input */
+  border: 1px solid #d1d5db; /* Màu border nhạt hơn */
+  box-sizing: border-box; /* Tính padding, border vào kích thước */
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.login-container input:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2); /* Hiệu ứng focus */
+    outline: none;
+}
+
+
+.login-container button#loginBtn { /* Chỉ áp dụng cho nút login */
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #6366f1, #8b5cf6); /* Gradient cho nút */
+  color: white;
+  font-weight: bold;
+  font-size: 1.05rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+  margin-top: 10px; /* Thêm khoảng cách trên */
+}
+.login-container button#loginBtn:hover {
+    background: linear-gradient(to right, #4f46e5, #7c3aed); /* Đậm hơn khi hover */
+}
+.login-container button#loginBtn:active {
+    transform: scale(0.98); /* Hiệu ứng nhấn nút */
+}
+
+.quiz-header {
+  display: flex;
+  align-items: center; /* Căn giữa các item theo chiều dọc */
+  justify-content: space-between;
+  margin-bottom: 15px; /* Giảm margin */
+  width: 100%;
+  border-bottom: 1px solid #e5e7eb; /* Thêm đường kẻ */
+  padding-bottom: 15px; /* Thêm padding dưới */
+  flex-wrap: wrap; /* Cho phép xuống dòng nếu không đủ chỗ */
+}
+
+.quiz-header h2 {
+    margin-bottom: 0; /* Bỏ margin dưới của h2 trong header */
+    font-size: 1.4rem;
+}
+
+.quiz-header p {
+  margin-bottom: 0;
+  color: #4b5563; /* Màu chữ đậm hơn */
+  font-size: 0.95rem;
+}
+#nameDisplay {
+    font-weight: 500;
+}
+
+.question-number {
+  text-align: left;
+  font-size: 0.9rem; /* Tăng cỡ chữ */
+  margin-bottom: 8px;
+  color: #6b7280; /* Màu nhạt hơn */
+  width: 100%;
+}
+
+.question-text {
+  font-weight: 600; /* Tăng độ đậm */
+  font-size: 1.2rem; /* Tăng cỡ chữ */
+  margin-bottom: 20px;
+  color: #1f2937; /* Màu chữ chính */
+  line-height: 1.6; /* Tăng khoảng cách dòng */
+  width: 100%;
+}
+
+.answers {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin: 0; /* Reset margin */
+}
+
+.answers li {
+  margin-bottom: 12px; /* Tăng khoảng cách giữa các câu trả lời */
+}
+
+.answer-btn {
+  width: 100%;
+  padding: 14px 18px; /* Tăng padding */
+  border: 1px solid #d1d5db; /* Border mặc định */
+  background: #fff; /* Nền trắng */
+  color: #374151; /* Màu chữ */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: block; /* Đảm bảo chiếm đủ width */
+}
+
+.answer-btn:not(.disabled):hover { /* Chỉ hover khi không bị disable */
+  border-color: #a5b4fc;
+  background: #f5f3ff; /* Nền hơi tím nhạt khi hover */
+}
+
+.answer-btn.selected:not(.correct):not(.wrong) { /* Khi đang làm bài, nút được chọn */
+    border-color: #6366f1;
+    background-color: #eef2ff;
+    color: #4338ca;
+    font-weight: 500;
+}
+
+/* --- Styling cho trạng thái xem lại --- */
+.answer-btn.correct { /* Đáp án đúng */
+  background-color: #dcfce7; /* Nền xanh lá nhạt */
+  border-color: #22c55e;
+  color: #166534; /* Màu xanh lá đậm */
+  font-weight: 500;
+}
+.answer-btn.correct.selected { /* Chọn đúng */
+    box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.4); /* Viền nhẹ xanh lá */
+}
+
+
+.answer-btn.wrong.selected { /* Chọn sai */
+  background-color: #fee2e2; /* Nền đỏ nhạt */
+  border-color: #ef4444;
+  color: #991b1b; /* Màu đỏ đậm */
+  font-weight: 500;
+  text-decoration: line-through; /* Gạch ngang câu trả lời sai đã chọn */
+  text-decoration-color: #dc2626;
+}
+
+.answer-btn.disabled { /* Style chung cho nút khi disabled (xem lại) */
+    cursor: default; /* Con trỏ mặc định */
+    opacity: 0.9; /* Giảm độ trong suốt nhẹ */
+}
+/* Không cần hover effect cho nút disabled */
+.answer-btn.disabled:hover {
+    border-color: initial; /* Hoặc màu border gốc */
+    background: initial; /* Hoặc màu background gốc */
+     /* Nếu có .correct hoặc .wrong thì giữ màu đó */
+     background: inherit;
+     border-color: inherit;
+}
+.answer-btn.disabled.correct:hover {
+    background-color: #dcfce7;
+    border-color: #22c55e;
+}
+.answer-btn.disabled.wrong.selected:hover {
+    background-color: #fee2e2;
+    border-color: #ef4444;
+}
+
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  width: 100%;
+  border-top: 1px solid #e5e7eb; /* Thêm đường kẻ */
+  padding-top: 20px; /* Thêm padding trên */
+}
+
+.controls button.btn { /* Áp dụng cho prev/next */
+  padding: 10px 20px;
+  background: #4f46e5; /* Màu tím đậm hơn */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+.controls button.btn:hover:not(:disabled) {
+    background-color: #4338ca; /* Đậm hơn khi hover */
+}
+.controls button.btn:disabled {
+    background-color: #a5b4fc; /* Màu nhạt khi disabled */
+    cursor: not-allowed;
+}
+
+
+.submit-btn, .retry-btn { /* Style chung cho Nộp bài và Làm lại */
+  padding: 14px 30px;
+  font-size: 1.1rem; /* Tăng cỡ chữ */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.submit-btn {
+   background-color: #16a34a; /* Màu xanh lá cây */
+}
+.submit-btn:hover:not(:disabled) {
+    background-color: #15803d; /* Đậm hơn */
+}
+.retry-btn {
+    background-color: #2563eb; /* Màu xanh dương */
+}
+.retry-btn:hover {
+     background-color: #1d4ed8; /* Đậm hơn */
+}
+.submit-btn:active:not(:disabled), .retry-btn:active {
+    transform: scale(0.99); /* Hiệu ứng nhấn */
+}
+.submit-btn:disabled {
+    background-color: #9ca3af; /* Màu xám khi disabled */
+    cursor: not-allowed;
+}
+
+
+.result-container {
+  margin-top: 25px;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #e5e7eb; /* Thêm đường kẻ */
+  padding-top: 20px; /* Thêm padding trên */
+  display: none; /* Mặc định ẩn */
+}
+
+.result-container h3 {
+  font-size: 1.3rem; /* Giảm cỡ chữ */
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #111827; /* Màu đen nhạt */
+}
+
+#finalResult {
+  font-size: 1.1rem; /* Giảm cỡ chữ */
+  font-weight: 500; /* Giảm độ đậm */
+  margin-bottom: 15px;
+  color: #1f2937; /* Màu chữ chính */
+  border: 1px solid #d1d5db; /* Border nhạt */
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9fafb; /* Nền xám rất nhạt */
+  line-height: 1.7;
+}
+#finalResult strong {
+    color: #15803d; /* Màu xanh lá cho số câu đúng */
+    font-weight: 700; /* Đậm hơn */
+}
+#finalResult em { /* Style cho chữ (Hết giờ) */
+    color: #991b1b; /* Màu đỏ đậm */
+    font-size: 0.9em;
+}
+
+
+.progress-bar {
+  width: 100%;
+  height: 10px; /* Giảm chiều cao */
+  background-color: #e5e7eb; /* Màu nền nhạt hơn */
+  border-radius: 10px;
+  margin-top: 25px;
+  position: relative;
+  overflow: hidden; /* Ẩn phần thừa của fill */
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(to right, #a78bfa, #7e22ce); /* Gradient tím */
+  border-radius: 10px;
+  width: 0%;
+  text-align: right; /* Căn phải text */
+  line-height: 10px; /* Bằng chiều cao bar */
+  color: white;
+  font-size: 0.7rem; /* Chữ nhỏ hơn */
+  padding-right: 8px; /* Padding cho text */
+  position: absolute;
+  transition: width 0.4s ease-out; /* Animation mượt hơn */
+  box-sizing: border-box;
+}
+
+.question-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Căn giữa các nút */
+  margin-top: 25px;
+  width: 100%;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 20px;
+}
+
+.question-nav button {
+  padding: 6px 10px; /* Giảm padding */
+  margin: 4px; /* Giảm margin */
+  border: 1px solid #d1d5db;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  min-width: 35px; /* Chiều rộng tối thiểu */
+  text-align: center;
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+}
+
+.question-nav button:hover {
+  background-color: #f3f4f6; /* Nền xám nhạt khi hover */
+  border-color: #9ca3af;
+}
+
+.question-nav button.answered { /* Câu đã trả lời */
+  background-color: #e0e7ff; /* Xanh dương nhạt */
+  border-color: #a5b4fc;
+  color: #4f46e5;
+  font-weight: 500;
+}
+.question-nav button.active { /* Câu đang được chọn */
+    background-color: #6366f1; /* Màu tím */
+    color: white;
+    border-color: #6366f1;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(99, 102, 241, 0.3);
+}
+
+#loginError {
+    margin-top: 15px; /* Thêm khoảng cách trên cho thông báo lỗi */
+    min-height: 1.2em; /* Giữ chỗ trống cho thông báo lỗi */
+    font-weight: 500;
+}
+
+
+@media (max-width: 768px) {
+  body {
+      padding: 10px; /* Giảm padding trên màn hình nhỏ */
+  }
+  .login-container,
+  .quiz-container {
+    width: 100%; /* Chiếm full width */
+    padding: 20px 25px; /* Giảm padding */
+  }
+
+  .quiz-header {
+      flex-direction: column;
+      align-items: flex-start; /* Căn trái các item */
+      gap: 8px; /* Khoảng cách giữa các item */
+  }
+  .quiz-header h2 {
+      font-size: 1.3rem;
+  }
+
+  .question-text {
+      font-size: 1.1rem;
+  }
+
+  .controls {
+      flex-direction: column;
+      align-items: stretch;
+  }
+
+  .controls button.btn {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+   .controls button.btn:last-child {
+      margin-bottom: 0;
+  }
+
+  .submit-btn, .retry-btn {
+      font-size: 1rem;
+      padding: 12px 20px;
+  }
+
+  .question-nav {
+      justify-content: flex-start; /* Căn trái nút nav */
+  }
+}
+
+/* Thêm keyframes cho animation nếu muốn */
+/* Ví dụ:
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.quiz-container {
+    animation: fadeIn 0.5s ease-out;
+}
+*/

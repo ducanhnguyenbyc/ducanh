@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng Quiz</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container" id="loginContainer">
+        <h2>Đăng nhập</h2>
+        <input type="text" id="username" placeholder="Tên đăng nhập">
+        <input type="password" id="accessCode" placeholder="Mã truy cập">
+        <button id="loginBtn">Bắt đầu</button>
+        <p id="loginError" style="color: red;"></p>
+    </div>
+
+    <div class="quiz-container" id="quizApp" style="display: none;">
+        <div class="quiz-header">
+            <h2>Quiz</h2>
+            <p id="nameDisplay"></p>
+            <p>Thời gian còn lại: <span id="timeLeft">--:--</span></p> </div>
+        <div class="question-number">Câu hỏi <span id="questionNumber">1</span>/<span id="totalQuestions">0</span></div> <div class="question-text" id="questionText">Đang tải câu hỏi...</div>
+        <ul class="answers" id="answersList"></ul>
+
+        <div class="result-container" id="resultContainer" style="display: none;">
+             <h3>Kết quả bài thi:</h3>
+             <div id="finalResult"></div>
+        </div>
+
+        <div class="controls">
+            <button class="btn" id="prevBtn" disabled>Câu trước</button> <button class="btn" id="nextBtn" disabled>Câu tiếp</button> </div>
+        <div class="question-nav" id="questionNav"></div>
+        <button class="submit-btn" id="submitBtn">Nộp bài</button>
+        <button class="retry-btn" id="retryBtn" style="display: none;">Làm lại bài</button> <div class="progress-bar">
+            <div class="progress-fill" id="progressFill">0%</div> </div>
+    </div>
+
+    <script src="login.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
