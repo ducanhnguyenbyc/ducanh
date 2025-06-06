@@ -1,11 +1,12 @@
 [
     {
-        "question": "Sải cánh của B-1B Lancer là bao nhiêu?",
+        "question": "Loại UAV có tham số: Chiều dài 14,5m; Sải cánh 39,9m; Chiều cao 4,7m; Vận tốc 800km/h; 
+Độ cao 15.000m; Thời gian hoạt động 24-30 giờ; Loại UAV làm nhiệm vụ trinh sát; Quốc gia sản xuất và sử dụng Mỹ. là của loại UAV nào?",
         "answers": [
-            {"text": "41.8 m", "correct": true},
-            {"text": "35 m", "correct": false},
-            {"text": "50 m", "correct": false},
-            {"text": "40 m", "correct": false}
+            {"text": "MQ-1", "correct": false},
+            {"text": "MQ-8, "correct": false},
+            {"text": "RQ-4A", "correct": false},
+            {"text": "MQ-4C", "correct": true}
         ]
     },
     {
