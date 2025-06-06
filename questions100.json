@@ -83,7 +83,7 @@
     {
         "question": "Loại UAV có tham số: Chiều dài 14m; Sải cánh 23m; Vận tốc 750km/h; Độ cao 18.300m; Phạm vi hoạt động 6.000km; Loại UAV làm nhiệm vụ trinh sát tầm cao; Quốc gia sản xuất và sử dụng Trung Quốc. là của loại UAV nào?",
         "answers": [
-            {"text": "S-100", "correct": true},
+            {"text": "S-100", "correct": false},
             {"text": "WZ-7", "correct": false},
             {"text": "EA-03", "correct": true},
             {"text": "BZK-005", "correct": false}
