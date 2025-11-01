@@ -1,40 +1,233 @@
 <!DOCTYPE html>
-<html lang="vi">  <head>
+<html lang="vi">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Học đi các ae</title> <link rel="stylesheet" href="style.css">
+    <title>Thiệp cưới Minh & Lan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <div class="login-container" id="loginContainer">
-        <h2>Đăng nhập</h2>
-        <input type="text" id="username" placeholder="Tên đăng nhập">
-        <input type="password" id="accessCode" placeholder="Mã truy cập">
-        <button id="loginBtn">Bắt đầu</button>
-        <p id="loginError" style="color: red;"></p>
-    </div>
+    <header class="hero" id="home">
+        <nav class="navigation">
+            <a class="nav-logo" href="#home">Minh & Lan</a>
+            <button class="nav-toggle" aria-label="Mở menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#home">Trang chủ</a>
+                <a href="#story">Chuyện tình</a>
+                <a href="#schedule">Lịch trình</a>
+                <a href="#gallery">Album</a>
+                <a href="#rsvp">Tham dự</a>
+            </div>
+        </nav>
 
-    <div class="quiz-container" id="quizApp" style="display: none;">
-        <div class="quiz-header">
-            <h2>Học đi nhá</h2>
-            <p id="nameDisplay"></p>
-            <p>Thời gian còn lại: <span id="timeLeft">--:--</span></p> </div>
-        <div class="question-number">Câu hỏi <span id="questionNumber">1</span>/<span id="totalQuestions">0</span></div> <div class="question-text" id="questionText">Đang tải câu hỏi...</div>
-        <ul class="answers" id="answersList"></ul>
-
-        <div class="result-container" id="resultContainer" style="display: none;">
-             <h3>Kết quả bài thi:</h3>
-             <div id="finalResult"></div>
+        <div class="hero-content animate-on-scroll">
+            <p class="hero-subtitle">Trân trọng kính mời</p>
+            <h1 class="hero-title">Đến dự lễ thành hôn của</h1>
+            <div class="hero-names">Minh & Lan</div>
+            <p class="hero-date">07 . 12 . 2024 &nbsp;&bull;&nbsp; Hà Nội</p>
+            <a href="#rsvp" class="primary-btn">Xác nhận tham dự</a>
         </div>
 
-        <div class="controls">
-            <button class="btn" id="prevBtn" disabled>Câu trước</button> <button class="btn" id="nextBtn" disabled>Câu tiếp</button> </div>
-        <div class="question-nav" id="questionNav"></div>
-        <button class="submit-btn" id="submitBtn">Nộp bài</button>
-        <button class="retry-btn" id="retryBtn" style="display: none;">Làm lại bài</button> <div class="progress-bar">
-            <div class="progress-fill" id="progressFill">0%</div> </div>
-    </div>
+        <div class="countdown" aria-live="polite">
+            <div>
+                <span id="days">00</span>
+                <small>Ngày</small>
+            </div>
+            <div>
+                <span id="hours">00</span>
+                <small>Giờ</small>
+            </div>
+            <div>
+                <span id="minutes">00</span>
+                <small>Phút</small>
+            </div>
+            <div>
+                <span id="seconds">00</span>
+                <small>Giây</small>
+            </div>
+        </div>
+    </header>
 
-    <script src="login.js"></script>
-    <script src="script.js"></script>
+    <main>
+        <section class="section about" id="story">
+            <div class="section-heading animate-on-scroll">
+                <p class="section-subtitle">Chuyện tình của chúng tôi</p>
+                <h2 class="section-title">Bắt đầu bằng một nụ cười</h2>
+                <p class="section-text">Từ những ngày đầu gặp gỡ nơi giảng đường đại học, chúng tôi đã đồng hành cùng nhau qua biết bao cung bậc cảm xúc. Hôn lễ lần này là dấu mốc để bắt đầu hành trình mới đầy yêu thương và hạnh phúc.</p>
+            </div>
+
+            <div class="couple-cards">
+                <article class="couple-card animate-on-scroll">
+                    <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1520854221050-0d3cbe6deae0?auto=format&fit=crop&w=600&q=80');"></div>
+                    <h3>Chú rể Minh</h3>
+                    <p>Chàng kỹ sư phần mềm ấm áp, luôn mang lại cảm giác an toàn và hài hước. Minh yêu thích nhiếp ảnh và mong muốn ghi lại những khoảnh khắc đẹp nhất của cuộc sống.</p>
+                </article>
+                <article class="couple-card animate-on-scroll">
+                    <div class="avatar" style="background-image: url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80');"></div>
+                    <h3>Cô dâu Lan</h3>
+                    <p>Cô gái dịu dàng thích làm bánh và chăm sóc gia đình. Lan luôn tin rằng yêu thương là chìa khóa giúp mọi người xích lại gần nhau hơn mỗi ngày.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section details" id="schedule">
+            <div class="section-heading animate-on-scroll">
+                <p class="section-subtitle">Lịch trình</p>
+                <h2 class="section-title">Ngày trọng đại</h2>
+                <p class="section-text">Chúng tôi vô cùng hạnh phúc khi được đón tiếp quý khách đến chung vui và chứng kiến giây phút thiêng liêng của đôi trẻ.</p>
+            </div>
+
+            <div class="detail-grid">
+                <article class="detail-card animate-on-scroll">
+                    <h3>Lễ thành hôn</h3>
+                    <p class="detail-time">09:00 - 10:30</p>
+                    <p class="detail-desc">Tư gia nhà gái, số 12 Nguyễn Khuyến, Hà Nội. Xin mời quý khách đến dự lễ và gửi lời chúc phúc đến đôi uyên ương.</p>
+                    <a class="ghost-btn" href="https://maps.app.goo.gl/" target="_blank" rel="noopener">Xem bản đồ</a>
+                </article>
+                <article class="detail-card animate-on-scroll">
+                    <h3>Tiệc cưới</h3>
+                    <p class="detail-time">11:00 - 13:30</p>
+                    <p class="detail-desc">Trung tâm tiệc cưới The Garden, số 36 Hoàng Cầu, Hà Nội. Thưởng thức thực đơn đặc sắc và cùng nâng ly mừng hạnh phúc.</p>
+                    <a class="ghost-btn" href="https://maps.app.goo.gl/" target="_blank" rel="noopener">Xem bản đồ</a>
+                </article>
+                <article class="detail-card animate-on-scroll">
+                    <h3>After Party</h3>
+                    <p class="detail-time">17:00 - 20:00</p>
+                    <p class="detail-desc">Sky Bar tầng 25, khách sạn Sunlight. Đêm nhạc nhẹ nhàng với ban nhạc acoustic và không gian ngập tràn ánh đèn.</p>
+                    <a class="ghost-btn" href="https://maps.app.goo.gl/" target="_blank" rel="noopener">Xem bản đồ</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section timeline">
+            <div class="section-heading animate-on-scroll">
+                <p class="section-subtitle">Dấu mốc đáng nhớ</p>
+                <h2 class="section-title">Hành trình của chúng tôi</h2>
+            </div>
+            <div class="timeline-list">
+                <div class="timeline-item animate-on-scroll">
+                    <span class="timeline-year">2017</span>
+                    <h3>Lần đầu gặp gỡ</h3>
+                    <p>Chúng tôi gặp nhau trong một buổi sinh hoạt câu lạc bộ. Một nụ cười vô tình đã mở ra cuộc trò chuyện kéo dài đến tận hôm nay.</p>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <span class="timeline-year">2019</span>
+                    <h3>Lời tỏ tình đầu tiên</h3>
+                    <p>Một buổi tối mùa thu, dưới ánh đèn vàng của phố cổ, Minh nói lời yêu và Lan gật đầu trong hạnh phúc vỡ òa.</p>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <span class="timeline-year">2022</span>
+                    <h3>Cùng nhau xây dựng tổ ấm</h3>
+                    <p>Chúng tôi bắt đầu hành trình trưởng thành, đi qua những khó khăn và trưởng thành hơn qua từng ngày.</p>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <span class="timeline-year">2024</span>
+                    <h3>Cầu hôn giữa trời Đà Lạt</h3>
+                    <p>Một buổi sáng đầy sương, Minh quỳ gối và Lan đồng ý. Kể từ đó, chúng tôi cùng nhau chuẩn bị cho ngày đặc biệt này.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section moments" id="gallery">
+            <div class="section-heading animate-on-scroll">
+                <p class="section-subtitle">Khoảnh khắc</p>
+                <h2 class="section-title">Album cưới</h2>
+                <p class="section-text">Một vài khoảnh khắc ngọt ngào mà chúng tôi muốn gửi tới bạn. Nhấp vào từng bức ảnh để xem chi tiết.</p>
+            </div>
+            <div class="moment-grid">
+                <figure class="animate-on-scroll"><img src="https://images.unsplash.com/photo-1520854221050-0f4caff449fb?auto=format&fit=crop&w=900&q=80" alt="Khoảnh khắc nắm tay" loading="lazy"></figure>
+                <figure class="animate-on-scroll"><img src="https://images.unsplash.com/photo-1520854221050-0b99f1c836b6?auto=format&fit=crop&w=900&q=80" alt="Cặp đôi cười tươi" loading="lazy"></figure>
+                <figure class="animate-on-scroll"><img src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?auto=format&fit=crop&w=900&q=80" alt="Chụp ảnh cùng bạn bè" loading="lazy"></figure>
+                <figure class="animate-on-scroll"><img src="https://images.unsplash.com/photo-1520854221050-0d0210971da1?auto=format&fit=crop&w=900&q=80" alt="Trao nhẫn cưới" loading="lazy"></figure>
+                <figure class="animate-on-scroll"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Cô dâu chú rể" loading="lazy"></figure>
+                <figure class="animate-on-scroll"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Khiêu vũ dưới ánh đèn" loading="lazy"></figure>
+            </div>
+        </section>
+
+        <section class="section rsvp" id="rsvp">
+            <div class="rsvp-content">
+                <div class="section-heading animate-on-scroll">
+                    <p class="section-subtitle">Hãy đến chung vui</p>
+                    <h2 class="section-title">Xác nhận tham dự</h2>
+                    <p class="section-text">Để chúng tôi chuẩn bị chu đáo nhất, mong bạn dành chút thời gian gửi lại lời xác nhận tham dự. Chân thành cảm ơn!</p>
+                </div>
+                <form class="rsvp-form animate-on-scroll" aria-label="Form xác nhận tham dự">
+                    <label>
+                        Họ và tên
+                        <input type="text" name="name" required placeholder="Nguyễn Văn A">
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" required placeholder="ban@example.com">
+                    </label>
+                    <label>
+                        Số điện thoại
+                        <input type="tel" name="phone" required placeholder="0123 456 789">
+                    </label>
+                    <label>
+                        Số lượng khách
+                        <select name="guests" required>
+                            <option value="">Chọn số lượng</option>
+                            <option value="1">1 người</option>
+                            <option value="2">2 người</option>
+                            <option value="3">3 người</option>
+                            <option value="4">4 người</option>
+                        </select>
+                    </label>
+                    <label>
+                        Lời nhắn
+                        <textarea name="message" rows="3" placeholder="Chúng tôi rất mong được gặp bạn..."></textarea>
+                    </label>
+                    <button type="submit" class="primary-btn">Gửi lời xác nhận</button>
+                    <p class="form-message" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <section class="section gift">
+            <div class="gift-card animate-on-scroll">
+                <h2 class="section-title">Gửi lời chúc &amp; mừng cưới</h2>
+                <p class="section-text">Nếu quý khách bận việc không thể tham dự, xin đừng ngại gửi những lời chúc tốt đẹp hoặc mừng cưới tới chúng tôi qua thông tin dưới đây.</p>
+                <div class="gift-grid">
+                    <div>
+                        <h3>Ngân hàng Vietcombank</h3>
+                        <p>Chủ tài khoản: Phạm Minh</p>
+                        <p>Số tài khoản: 012 345 678</p>
+                    </div>
+                    <div>
+                        <h3>Ngân hàng Techcombank</h3>
+                        <p>Chủ tài khoản: Nguyễn Lan</p>
+                        <p>Số tài khoản: 987 654 321</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Minh &amp; Lan</p>
+            <p>Hẹn gặp lại bạn vào ngày 07.12.2024</p>
+            <div class="footer-links">
+                <a href="tel:+840123456789">Gọi cho Minh</a>
+                <a href="tel:+840987654321">Gọi cho Lan</a>
+                <a href="mailto:minh.lan@happywedding.vn">Gửi email</a>
+            </div>
+        </div>
+        <p class="footer-copy">Trân trọng kính mời!</p>
+    </footer>
+
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="Xem ảnh lớn" hidden>
+        <button class="lightbox-close" aria-label="Đóng">&times;</button>
+        <img src="" alt="">
+    </div>
 </body>
 </html>
